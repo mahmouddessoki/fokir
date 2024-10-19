@@ -1,0 +1,224 @@
+@media only screen and (max-width : 430px) {
+.about .about-item-two .btns {
+
+    text-align: end;
+}
+.about .about-item-two .personal-info .info {
+    float: none;
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width : 767px)  { 
+    html {
+        font-size: 13px;
+    }
+    .home .home-caption p {
+        font-size: 150%;
+    }
+    .home .home-caption h1 {
+        font-size: 360%;
+    }
+    .home .home-caption {
+        width: 100%;
+        
+    }
+
+    .nav {
+        overflow: hidden;
+        position: fixed;
+    }
+    .nav-toggler {
+    display: block;
+}
+
+    .nav-links {
+        background-color: gray;
+    
+        position: absolute;
+        top: 63px;
+        width: 90%;
+    }
+    .nav .nav-links ul {
+        padding: 15px 0px;
+    }
+    .nav .nav-links ul li {
+        float: none;
+        text-align: center;
+      margin-bottom: 15px;
+    }
+    .nav .nav-links ul li a {
+        font-size: 120%;
+    }
+   
+
+    .nav-toggler i {
+            font-size: 20px;
+        color: #FF305B;
+    cursor: pointer;
+    }
+
+    :root:has(#toggle:checked) .nav{
+        overflow: visible;
+    }
+
+
+    .about .about-item-two, .about .about-item {
+        float: none;
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+        padding: 30px 0px;
+    }
+    .about {
+        font-size: 12px;
+    }
+    .about .about-item .profile {
+        top: 0;
+        left: 0;
+    }
+    .about .about-item .about-img {
+        width: 85%;
+        margin: auto;
+    }
+    .about .about-content {
+        margin-top: 18px;
+    }
+    .about .about-item-two .btns a {
+        padding: 10px 20px;
+    }
+
+
+    .services .items .item {
+        width: 100%;
+    }
+    .space-around {
+        width: 100%;
+    }
+   .statistics .st-items .st-item {
+    text-align: center;
+    /* width: 25%; */
+    /* float: left; */
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+}
+.feedback .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caption-image {
+    width: 30%;
+}
+.feedback .caption .caption-image img {
+   
+    width: 100%;
+}
+.feedback .carsousel-card {
+    padding: 20px 0px;
+    width: 100%;
+    background-image: linear-gradient(135deg,
+            #ff305b 0 20%,
+            #f1f1f1 15% 100%);
+}
+.contact .name-input, .contact .email-input {
+    padding-right: 0;
+    float: none;
+    width: 100%;
+}
+.contact .contact-form {
+    width: 100%;
+}
+.contact .contact-form button {
+    padding: 11px;
+}
+.footer {
+    padding: 20px;
+}
+.footer a , .footer {
+    font-size: 14px;
+}
+
+
+.portfolio .port-nav ul li {
+    padding: 7px;
+}
+.header h2 {
+    font-size: 240%;
+}
+.header .lines {
+    width: 50%;
+}
+}
+
+@media only screen and (min-width : 576px) {}
+
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    /* .about .about-item .about-img {
+        width: 70%;
+    }
+    .about {
+        font-size: 14px;
+    } */
+
+
+    .container {
+        width: 90%;
+    }
+    .about {
+        font-size: 19px;
+    }
+     .about .about-item-two, .about .about-item {
+        float: none;
+        width: 100%;
+    }
+
+
+     .about .about-item .about-img {
+        width: 75%;
+        margin: auto;
+    }
+    .about .about-content {
+        margin-top: 18px;
+    }
+    
+    .services .items .item {
+        width: 50%;
+    }
+    .space-around { 
+        width: 50%;
+    }
+    .statistics .st-items .st-item {
+        width: 50%;
+        margin-bottom: 28px;
+    }
+    .feedback .carsousel-card {
+    background-image: linear-gradient(135deg, #ff305b 0 21%, #f1f1f1 15% 100%); 
+    }
+
+    .contact .contact-form {
+        width: 100%;
+    }
+
+
+ }
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+
+    .services .items .item {
+        padding: 15px 0px;
+    }
+    .blog .container {
+        width: 85%;
+    }
+
+
+ }
+
+
+@media only screen and (min-width : 1200px) {}
